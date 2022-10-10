@@ -1,8 +1,9 @@
-#Variable Assignments
+print("hello world")
+
+# Variable Assignments
 var1 = 5
 
-
-#Variable Re-assignments (Updating the value of the variable)
+# Variable Re-assignments (Updating the value of the variable)
 var1 = 7
 
 '''
@@ -21,7 +22,7 @@ var12 => Variable name can have the numbers but not begining
 
 '''
 
-#Variable Data Types
+# Variable Data Types
 
 float_1 = 1.2345
 
@@ -29,4 +30,4 @@ int_1 = 25
 
 boolean_1 = True
 
-float_1= 29
+float_1 = 29
