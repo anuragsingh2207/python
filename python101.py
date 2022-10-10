@@ -66,5 +66,10 @@ For same precedence of operators opertaions happen from left to right
 2 * 8 + 10 % 6 // -1 * 2  -1
 16 + -8 -1
 7
-
 '''
+
+# Print Statement
+
+print (floor_division)
+print (20189)
+print (4 ** 4 )
