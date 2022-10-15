@@ -1,6 +1,7 @@
 from platform import python_branch
 import string
 from typing import Concatenate
+from xml.dom.minidom import CharacterData
 
 
 print("Python Print with double quotes")
@@ -46,6 +47,13 @@ print("Sliced String:",unchanged[10])
 print("Unchanged String:",unchanged)
 
 
+# Escape Characters
+
+print("Tab Escape Character:"+"This\tis\ta\tlot\tspace")
+print("Next Line Escape Character:"+"line one\nline two\nline three")
+print("Single Quote Escape Character:"+"Tom\'&\'Jerry")
+print("Douable Quote Escape Character:"+'Road Runner \"&\" Coyote')
+print("Slash Escaper Character:"+"Hey there\\")
 
 
  
