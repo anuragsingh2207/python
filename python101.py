@@ -1,10 +1,10 @@
 print("hello world")
 
 # Variable Assignments
-var1 = 5
+var1=5
 
 # Variable Re-assignments (Updating the value of the variable)
-var1 = 7
+var1=7
 
 '''
 ++Variable Naming Rules++
@@ -24,30 +24,30 @@ var12 => Variable name can have the numbers but not begining
 
 # Variable Data Types
 
-float_1 = 1.2345
+float_1=1.2345
 
-int_1 = 25
+int_1=25
 
-boolean_1 = True
+boolean_1=True
 
-float_1 = 29
+float_1=29
 
 # Mathematical Operators
 
-add = 4 + 5  # 9
-subtract = 5 - 3  # 2
-multiply = 5 * 3  # 15
-divide = 5 / 2  # 2.5
+add=4+5  # 9
+subtract=5-3  # 2
+multiply=5*3  # 15
+divide=5/2  # 2.5
 
-exponentiation = 4 ** 4  # 256
-floor_division = 16 // 5  # 3
-modulo = 7 % 3  # 1
+exponentiation=4**4  # 256
+floor_division=16//5  # 3
+modulo=7%3  # 1
 
 # Assignment Operators
 
-add_assign = 7
-add_assign += 5  # 12
-add_assign = add_assign + 5  # 12
+add_assign=7
+add_assign+=5  # 12
+add_assign=add_assign+5  # 12
 
 # Assignment Operators are available for all the above-mentioned Mathematical Operators
 
@@ -70,6 +70,20 @@ For same precedence of operators opertaions happen from left to right
 
 # Print Statement
 
-print (floor_division)
-print (20189)
-print (4 ** 4 )
+print(floor_division)
+print(20189)
+print(4 ** 4 )
+print(True)
+
+# Float Approximation Errors
+print (1.23+2.80)  # Give output 4.02999999999 instead of 4.03
+
+# Using Multiply by 100
+print("Using multiply by 100")
+ex1=(123+280)/100
+print(ex1)
+
+# Using round() function 
+print("Using round() function")
+ex2=1.23+2.80
+print(round(ex2,2))
