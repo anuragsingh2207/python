@@ -35,3 +35,17 @@ concatenated = "R2" + "-" + "D2"
 print(concatenated)
 print(concatenated[3])
 print(concatenated[1:4])
+
+
+unchanged = "forrest gump"
+sliced = unchanged[6:]
+
+print("Sliced String:",sliced)
+print("Unchanged String:",unchanged)
+print("Sliced String:",unchanged[10])
+print("Unchanged String:",unchanged)
+
+
+
+
+ 
