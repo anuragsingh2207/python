@@ -1,5 +1,5 @@
 def c_to_f(c):
-    return 1.8*c+32
+    return 1.8*c + 32
 
 
 print ("Celsius to Fahrenheit Conversion")
