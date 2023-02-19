@@ -1,2 +1,2 @@
-# python_repo
+# Python
 This repo contains python code
