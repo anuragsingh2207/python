@@ -1,2 +1,2 @@
 # Python
-This repo contains sample python code
+This repo contains sample python code for beginners.
