@@ -1,0 +1,31 @@
+name: Python CI
+on :
+	push:
+		branches: [main, feature/*]
+
+env:
+
+jobs:
+	name: CI
+	runs-on: ubuntu-latest
+		- name: Checkout code
+		  run: actions/checkout@v4
+		- name: Navigate to code directory
+		  run: cd python102
+		- name: Setup Python
+		  run: actions/setup-python@v4
+		- name: Install Dependencies
+		  run: pip install -r requirements.txt
+		- name: Run pytest
+		  run: pytest
+		- name: Build Docker image 
+		  run: docker build -t python102:0.0.1 .
+		- name: Scan Vulnerabilities
+      run: actions/trivy-action@v0.1.0
+		- name: Login to Docker hub 
+		  run: actions/docker-login@v1
+		  uses:
+		  	USERNAME: ${{secrets.DOCKER_USER}}
+		  	PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+		- name: Docker Push
+		  run: docker push python102:0.0.1
